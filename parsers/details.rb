@@ -13,5 +13,6 @@ outputs << {
     title: page['vars']['title'],
     price: page['vars']['price'],
     seller: seller,
-    feedback: feedback
+    feedback: feedback,
+    test_value: 123
 }
