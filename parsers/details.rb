@@ -14,5 +14,6 @@ outputs << {
     price: page['vars']['price'],
     seller: seller,
     feedback: feedback,
-    test_value: 123
+    test_value: 123,
+    test_value_b:345
 }
