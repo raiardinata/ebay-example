@@ -7,7 +7,7 @@ parsers:
     disabled: false
   - page_type: details
     file: ./parsers/details.rb
-    disabled: true
+    disabled: false
 exporters:
   - file: ./exporters/products_last10_json.yaml
     disabled: false
