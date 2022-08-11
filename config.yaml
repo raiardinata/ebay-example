@@ -17,5 +17,7 @@ exporters:
     disabled: false
   - file: ./exporters/bad_offset.yaml
     disabled: false
+  - file: ./exporters/bad_collection.yaml
+    disabled: false
 finisher:
   file: ./finisher/finisher.rb
