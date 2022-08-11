@@ -1,8 +1,8 @@
-- collection: products
-  exporter_name: bad_offset
-  exporter_type: json
-  limit: 1000
-  offset: 1000
-  order: desc
-  start_on_job_done: true
-  write_mode: pretty_array
+collection: products
+exporter_name: bad_offset
+exporter_type: json
+limit: 1000
+offset: 1000
+order: desc
+start_on_job_done: true
+write_mode: pretty_array
