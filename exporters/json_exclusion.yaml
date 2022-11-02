@@ -10,4 +10,4 @@ excluded_fields:
 - _job_id
 - foo
 - bar
-- url
+- price
