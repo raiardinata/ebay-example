@@ -1,0 +1,13 @@
+exporter_name: json_exclusion
+exporter_type: json
+collection: products
+start_on_job_done: true
+excluded_fields:
+- _id
+- _gid
+- _collection
+- _created_at
+- _job_id
+- foo
+- bar
+- url
