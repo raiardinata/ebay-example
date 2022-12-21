@@ -19,17 +19,17 @@ outputs << {
 }
 
 # test dup output
-outptus << {
+outputs << {
     _collection: 'dedup_should_be_BBB',
     _id: '111aaa',
     value: 'AAA'
 }
-outptus << {
+outputs << {
     _collection: 'dedup_good',
     _id: '111aaa',
     value: 'CCC'
 }
-outptus << {
+outputs << {
     _collection: 'dedup_should_be_BBB',
     _id: '111aaa',
     value: 'BBB'
