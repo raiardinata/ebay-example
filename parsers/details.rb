@@ -27,7 +27,7 @@ outptus << {
 outptus << {
     _collection: 'dedup_good',
     _id: '111aaa',
-    value: 'AAA'
+    value: 'CCC'
 }
 outptus << {
     _collection: 'dedup_should_be_BBB',
