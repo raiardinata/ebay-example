@@ -14,8 +14,8 @@ outputs << {
     price: page['vars']['price'],
     seller: seller,
     feedback: feedback,
-    test_value: 123,
-    test_value_b:345
+    test_value: 1.1111111111111122,
+    test_value_b:1111111111111112012
 }
 
 # test dup output
