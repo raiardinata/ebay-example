@@ -14,3 +14,7 @@ fields:
     path: "feedback"
   - header: "seller"
     path: "seller"
+  - header: "test_value"
+    path: "test_value"
+  - header: "test_value_b"
+    path: "test_value_b"
