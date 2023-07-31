@@ -27,7 +27,7 @@ env_vars:
   - name: my_env_var
     global_name: my_env_var # Optional. If specified, refers to your account's environment variable of this name.
     disabled: false # Optional
-
+  - name: rai_test
   - name: my_env_hardcode_var
     default: default_env_test
 input_vars:
@@ -43,3 +43,5 @@ input_vars:
   - name: my_input_hardcode_var
     type: text
     default: default_input_test
+  - name: rai_test
+    type: text
