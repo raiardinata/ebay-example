@@ -4,6 +4,17 @@ nokogiri = Nokogiri.HTML(content)
 # get the group of listings
 listings = nokogiri.css('ul.b-list__items_nofooter li.s-item')
 
+outputs << {
+  _collection: 'env_vars',
+  _id: 'parser',
+  my_env_var: ENV['my_env_var'],
+  my_env_secret_var: ENV['my_env_secret_var'],
+  my_env_hardcode_var: ENV['my_env_hardcode_var'],
+  my_input_secret_var: ENV['my_input_secret_var'],
+  my_input_var: ENV['my_input_var'],
+  my_input_hardcode_var: ENV['my_input_hardcode_var']
+}
+
 # loop through the listings
 listings.each do |listing|
     # initialize an empty hash
