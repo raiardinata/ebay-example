@@ -23,3 +23,25 @@ exporters:
     disabled: false
 finisher:
   file: ./finisher/finisher.rb
+env_vars:
+  - name: my_env_var
+    global_name: my_env_var # Optional. If specified, refers to your account's environment variable of this name.
+    disabled: false # Optional
+  - name: my_env_secret_var
+    global_name: my_env_secret_var # Optional. If specified, refers to your account's environment variable of this name.
+    disabled: false # Optional
+  - name: my_env_hardcode_var
+    default: default_env_test
+input_vars:
+  - name: my_input_secret_var
+    title: My Input Secret Variable
+    description: My Input Secret Variable Declaration
+    type: secret
+    required: true
+  - name: my_input_var
+    title: My Input Variable
+    description: My Input Variable Declaration
+    type: text
+  - name: my_input_hardcode_var
+    type: text
+    default: default_input_test
