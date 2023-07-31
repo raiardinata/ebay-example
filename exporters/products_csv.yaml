@@ -18,4 +18,4 @@ fields:
     path: "test_value"
   - header: "test_value_b"
     path: "test_value_b"
-export_filename: my_csv_SID:<sid>_NAME:<name>_JID:<jid>_DATE:<d:yyyyMMdd hh:mm>_my_input_var:<i:my_input_var>_my_env_var:<i:my_env_var>
+export_filename: my_csv_SID:<sid>_NAME:<name>_JID:<jid>_DATE:<d:yyyyMMdd hh:mm>_my_input_var:<i:my_input_var>_my_env_var:<e:my_env_var>
