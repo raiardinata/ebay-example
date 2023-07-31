@@ -25,3 +25,13 @@ outputs << {
   _id: 'blank_collection',
   value: "GOOD blank"
 }
+outputs << {
+  _collection: 'env_vars',
+  _id: 'seeder',
+  my_env_var: ENV['my_env_var'],
+  my_env_secret_var: ENV['my_env_secret_var'],
+  my_env_hardcode_var: ENV['my_env_hardcode_var'],
+  my_input_secret_var: ENV['my_input_secret_var'],
+  my_input_var: ENV['my_input_var'],
+  my_input_hardcode_var: ENV['my_input_hardcode_var']
+}
